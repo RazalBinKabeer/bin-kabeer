@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(31, 31, 94);
+}
+
+body {
+    background-color: #92aeba;
+    color: rgb(31, 31, 94);
+    font-family: "Roboto Mono", monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+header:hover {
+    background-color: rgba(9, 0, 48, 0.082);
+}
+
+#nav {
+    display: flex;
+}
+
+#nav #logo,
+#nav nav {
+    margin: 0 15px;
+}
+
+#nav ul {
+    display: flex;
+}
+
+#nav ul li {
+    padding: 10px 15px;
+    margin: 24px 15px;
+}
+
+#nav ul li:hover {
+    background-color: rgb(153, 214, 224);
+    border-radius: 20px;
+}
+
+#contact {
+    padding: 10px 15px;
+    background-color: rgb(119, 203, 218);
+    margin: 0 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+#contact:hover {
+    background-color: rgb(153, 214, 224);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 70vh;
+    padding: 10px 0;
+}
+
+main img {
+    height: 150px;
+}
+
+main h1 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+footer {
+    height: 10vh;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+footer #socials {
+    font-size: 20px;
+}
+
+footer #socials ul {
+    display: flex;
+}
+
+footer #socials ul li {
+    margin: 0 10px;
+}
+
+footer span {
+    font-size: 20px;
+}
